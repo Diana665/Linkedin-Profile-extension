@@ -1,0 +1,27 @@
+ul.menulist {
+    display: flex;
+    flex-direction: row;
+    background: #eee;
+    border-top: 1px #cccfd3 solid;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.menulist li {
+    padding: 5px 10px;
+    color: #696c6f;
+}
+
+ul.menulist li a:hover {
+    cursor: pointer;
+    color: #000;
+}
+
+ul.menulist li a:focus {
+    outline:0;
+}
+
+ul.menulist li a i {
+    font-size: 16px;
+}

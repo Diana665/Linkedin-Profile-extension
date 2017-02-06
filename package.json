@@ -1,0 +1,28 @@
+{
+  "name": "linkedin-profile-chrome-extension",
+  "description": "LinkedIn profile chrome extension",
+  "version": "0.0.1",
+  "main": "dist/bundle.js",
+  "repository": {
+    "url": "git@github.com:jonathanchrisp/linkedin-profile-chrome-extension.git",
+    "type": "git"
+  },
+  "scripts": {
+      "build": "webpack --config webpack.prod.config",
+      "start": "webpack"
+  },
+  "author": "Jonathan Chrisp <jonathan.chrisp@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "base64-font-loader": "^0.0.4",
+    "css-loader": "^0.25.0",
+    "html-loader": "^0.4.4",
+    "jquery": "^3.1.1",
+    "style-loader": "^0.13.1",
+    "vue": "^2.0.3",
+    "webpack": "^1.13.2"
+  }
+}
