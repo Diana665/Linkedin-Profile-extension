@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "main": "dist/bundle.js",
   "repository": {
-    "url": "git@github.com:jonathanchrisp/linkedin-profile-chrome-extension.git",
+    "url": "git@github.com:Diana665/Linkedin-Profile-extension",
     "type": "git"
   },
   "scripts": {
